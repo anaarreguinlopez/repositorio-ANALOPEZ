@@ -1,0 +1,67 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+          <title>Dominando DOM JS</title>
+
+  </head>
+<body>
+  <h1> Desafio de JS </h1>
+  
+  <!--seccion del reto de las cajas-->
+    <h2 id="titulo-cajas" style="color:#856742"> Reto de las CAJAS </h2>
+  <button id="btn-cajas-titulo">
+    cambiar el titulo de cajas 
+  </button>
+  
+  <hr>
+  
+    <div class="contenedor">
+        <div class="caja"> caja1
+  </div>
+      
+        <div class="caja"> caja2
+  </div>
+      
+       <div class="caja"> caja3
+  </div>
+    
+     
+  </div>
+     <button id="btn-cajas">cambiar el color de las cajas</button>
+  
+  <button id="btn-primera">cambiar el color de la caja 1</button>
+  
+  <button id="btn-borde">cambiar el borde de las cajas</button>
+  
+    <!--seccion del reto de la galeria-->
+  <hr>
+      <h2> Reto - GALERIA </h2>
+  <div class="container py-4">
+<!-- Input y Botón -->
+    <div class="row mb-3">
+      <div class="col-md-8">
+        <input 
+          type="text" 
+          class="form-control" 
+          id="imageUrlInput" 
+          placeholder="Introduce la URL de la imagen">
+      </div>
+      
+      <div class="col-md-4">
+        <button 
+          class="btn btn-primary w-100" 
+          id="addImageBtn">
+          agregar imagen
+        </button>
+      </div>
+    </div>
+
+    <!-- Contenedor de la galería -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="galleryContainer">
+      <!-- Aquí se añadirán las imágenes dinámicamente -->
+    </div>
+  </div>
+ 
+ 
+  </body>
+</html>
